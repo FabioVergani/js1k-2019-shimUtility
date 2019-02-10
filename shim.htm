@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS1k 2019 - NNNN - TITLE</title>
+	<meta content="YOU" name="author">
+	<script>
+		//configurables:
+		const TOKEN_CANVAS_SHIM=false,//(2d/3d). other settings are ignored if this is false.
+		TOKEN_WEBGL=false,// true enables webgl shim (exposes `g`), false enables canvas shim (exposes `c`)
+		TOKEN_MAX_WIDTH=512,//px, 0 means always 100%
+		TOKEN_MAX_HEIGHT=512,//px, 0 means always 100%
+		TOKEN_LOCK_RATIO=true,//be smaller than specified if viewport is smaller?
+		TOKEN_CENTER_CANVAS=true,//only if width<100%
+		TOKEN_RELOAD_ONORIENTATIONCHANGE=true;//"press" reload button on orientation change?
+	</script>
+	<link rel="stylesheet" href="shim.css">
+</head>
+<body>
+	<header>
+		<a class="button p" href="?n=0">↞</a><a class="button n" href="?n=1">↠</a>
+		<div class="button r" id="reload">&#8635;</div>
+		<div>
+			<h1><a href="#">JS1k</a> <a href="#">2019</a> <strong></strong> demo — "TITLE" by YOU</h1>
+			<aside>
+				— 1024 bytes — <a href="#/details/NNNN">demo details</a> — <a href="#/demos">list of demos</a> — <a href="https://js1k.com/NNNN" rel="nofollow" title="short link for your mobile devices">js1k.com/NNNN</a> <time datetime="NOW" pubdate="">NOW</time>
+			</aside>
+		</div>
+		<p><em>FIRST PART OF YOUR DESC GOES HERE</em></p>
+	</header>
+	<script src="shim.js"></script>
+</body>
+</html>
